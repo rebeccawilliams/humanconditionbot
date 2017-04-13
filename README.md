@@ -2,7 +2,7 @@ Using Tweadabook to tweet The Human Condition.
 
 ## Source Code
 
-https://github.com/mediumrehr/tweadabook; www.twitter.com/tweadabook](http://www.twitter.com/tweadabook
+https://github.com/mediumrehr/tweadabook; www.twitter.com/tweadabook
 
 ## Heroku Setup
 ```sh
