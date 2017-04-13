@@ -12,7 +12,7 @@ Last edited: June 15, 2015
 // Uses twit, node-persist, and pdftotextjs npm modules
 var Twit = require('twit');
 var pdftotext = require('pdftotextjs'),
-          pdf = new pdftotext('Lorem_ipsum.pdf');
+          pdf = new pdftotext('thehumancondition.pdf');
 
 // Get PDF text and clean it up
 var pdfText = pdf.getTextSync();
@@ -47,7 +47,7 @@ var T = new Twit({
   , access_token_secret:  process.env.ACCESS_TOKEN_SECRET
 })
 
-T.get('statuses/user_timeline', {screen_name: 'tweadabook', count:1}, function (err, data, response) {
+T.get('statuses/user_timeline', {screen_name: 'LaborWorkAction', count:1}, function (err, data, response) {
 	var updateLoc = pdfText.indexOf(data[0].text);
 	console.log("location: " + updateLoc);
 	if (updateLoc > 0) {
