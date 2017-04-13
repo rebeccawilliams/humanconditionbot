@@ -1,5 +1,8 @@
-# Twead A Book
-A twitter bot that tweets a book (pdf) in 140(ish) character chunks at a set rate of time. [www.twitter.com/tweadabook](http://www.twitter.com/tweadabook)
+Using Tweadabook to tweet The Human Condition. 
+
+## Source Code
+
+https://github.com/mediumrehr/tweadabook; www.twitter.com/tweadabook](http://www.twitter.com/tweadabook
 
 ## Heroku Setup
 ```sh
